@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
 import net.mcreator.jujutsucraft.init.JujutsucraftModEntities;
 import net.mcreator.jujutsucraft.init.JujutsucraftModMobEffects;

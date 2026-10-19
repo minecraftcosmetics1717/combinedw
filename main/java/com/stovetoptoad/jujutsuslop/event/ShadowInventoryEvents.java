@@ -1,9 +1,9 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.capability.InnerselfInventoryCapability;
-import com.ghosts.jujutsureborn.capability.ModCapabilities;
-import com.ghosts.jujutsureborn.capability.ShadowInventoryCapability;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.capability.InnerselfInventoryCapability;
+import com.stovetoptoad.jujutsuslop.capability.ModCapabilities;
+import com.stovetoptoad.jujutsuslop.capability.ShadowInventoryCapability;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -12,18 +12,18 @@ import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class ShadowInventoryEvents {
 
     @SubscribeEvent
     public static void attachCapabilities(AttachCapabilitiesEvent<Entity> event) {
         if (event.getObject() instanceof Player) {
             event.addCapability(
-                    new ResourceLocation(JujutsuReborn.MODID, "shadow_inventory"),
+                    new ResourceLocation(JujutsuSlop.MOD_ID, "shadow_inventory"),
                     new ShadowInventoryCapability()
             );
             event.addCapability(
-                    new ResourceLocation(JujutsuReborn.MODID, "innerself_inventory"),
+                    new ResourceLocation(JujutsuSlop.MOD_ID, "innerself_inventory"),
                     new InnerselfInventoryCapability()
             );
         }

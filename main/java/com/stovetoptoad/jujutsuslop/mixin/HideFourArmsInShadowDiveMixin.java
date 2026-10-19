@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.client.ShadowDiveSync;
+import com.stovetoptoad.jujutsuslop.client.ShadowDiveSync;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.MultiBufferSource;

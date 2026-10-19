@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.mcreator.jujutsucraft.network.JujutsucraftModVariables;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -13,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.lang.reflect.Field;
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class BrainDamageCleanupHandler {
 
     private static MobEffect brainDamageEffect = null;

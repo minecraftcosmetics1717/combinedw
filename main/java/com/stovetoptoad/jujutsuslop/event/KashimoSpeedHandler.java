@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import java.lang.reflect.Field;
 import java.util.UUID;
 import net.minecraft.core.Direction;
@@ -13,7 +13,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class KashimoSpeedHandler {
 
     private static final UUID KASHIMO_SPEED_UUID = UUID.fromString("6a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d");

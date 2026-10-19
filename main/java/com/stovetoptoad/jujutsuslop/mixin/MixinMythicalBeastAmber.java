@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
 import net.mcreator.jujutsucraft.potion.MythicalBeastAmberEffectMobEffect;
 import net.minecraft.world.effect.MobEffect;

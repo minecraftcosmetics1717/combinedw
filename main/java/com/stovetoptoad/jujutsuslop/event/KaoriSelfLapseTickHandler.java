@@ -1,7 +1,7 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.effect.ModEffects;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.effect.ModEffects;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -16,7 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class KaoriSelfLapseTickHandler {
 
     private static final double CE_DRAIN_COST = 40.0D;
@@ -70,7 +70,7 @@ public class KaoriSelfLapseTickHandler {
                     }
                 }
             } catch (Exception e) {
-                JujutsuReborn.LOGGER.error("[JReborn] Error processing Self-Lapse tick drain", e);
+                JujutsuSlop.LOGGER.error("[JReborn] Error processing Self-Lapse tick drain", e);
             }
         }
     }

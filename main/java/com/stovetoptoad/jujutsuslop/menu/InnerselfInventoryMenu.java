@@ -1,7 +1,7 @@
-package com.ghosts.jujutsureborn.menu;
+package com.stovetoptoad.jujutsuslop.menu;
 
-import com.ghosts.jujutsureborn.capability.ModCapabilities;
-import com.ghosts.jujutsureborn.util.InnerselfHelper;
+import com.stovetoptoad.jujutsuslop.capability.ModCapabilities;
+import com.stovetoptoad.jujutsuslop.util.InnerselfHelper;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;

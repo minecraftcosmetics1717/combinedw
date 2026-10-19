@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.player.LocalPlayer;

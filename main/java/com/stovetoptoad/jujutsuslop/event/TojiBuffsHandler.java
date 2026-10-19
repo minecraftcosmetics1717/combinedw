@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn; //
+import com.stovetoptoad.jujutsuslop.JujutsuSlop; //
 import net.mcreator.jujutsucraft.init.JujutsucraftModItems; //
 import net.mcreator.jujutsucraft.network.JujutsucraftModVariables; //
 import net.minecraft.resources.ResourceLocation;
@@ -17,7 +17,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.UUID;
 
-@EventBusSubscriber(modid = JujutsuReborn.MODID)
+@EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class TojiBuffsHandler {
 
    private static final UUID PLAYFUL_CLOUD_SPEED_UUID = UUID.fromString("7f38da64-6cfa-4d1d-91b4-123456789abc");

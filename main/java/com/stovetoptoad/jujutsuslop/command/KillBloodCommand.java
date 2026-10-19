@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.command;
+package com.stovetoptoad.jujutsuslop.command;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
@@ -13,7 +13,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.registries.ForgeRegistries;
 
-@EventBusSubscriber(modid = JujutsuReborn.MODID)
+@EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class KillBloodCommand {
 
     @SubscribeEvent

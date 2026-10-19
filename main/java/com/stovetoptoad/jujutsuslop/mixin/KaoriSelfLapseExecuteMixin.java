@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;

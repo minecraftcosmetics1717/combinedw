@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.network;
+package com.stovetoptoad.jujutsuslop.network;
 
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;

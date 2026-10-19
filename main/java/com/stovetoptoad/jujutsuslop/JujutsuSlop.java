@@ -4,12 +4,12 @@ import com.stovetoptoad.jujutsuslop.network.ModNetwork;
 import com.stovetoptoad.jujutsuslop.rika.RikaMenuTypes;
 
 // Abyss imports
-import com.ghosts.jujutsureborn.effect.ModEffects;
-import com.ghosts.jujutsureborn.entity.RockEntity;
-import com.ghosts.jujutsureborn.event.ShadowDiveTickHandler;
-import com.ghosts.jujutsureborn.init.JujutsuRebornEntities;
-import com.ghosts.jujutsureborn.item.RockItem;
-import com.ghosts.jujutsureborn.menu.ModMenus;
+import com.stovetoptoad.jujutsuslop.effect.ModEffects;
+import com.stovetoptoad.jujutsuslop.entity.RockEntity;
+import com.stovetoptoad.jujutsuslop.event.ShadowDiveTickHandler;
+import com.stovetoptoad.jujutsuslop.init.JujutsuSlopEntities;
+import com.stovetoptoad.jujutsuslop.item.RockItem;
+import com.stovetoptoad.jujutsuslop.menu.ModMenus;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -52,7 +52,7 @@ public class JujutsuSlop {
 
       // ===== Abyss =====
       ABYSS_ITEMS.register(modBus);
-      JujutsuRebornEntities.ENTITY_TYPES.register(modBus);
+      JujutsuSlopEntities.ENTITY_TYPES.register(modBus);
       ModMenus.MENUS.register(modBus);
       ModEffects.register(modBus);
 
@@ -75,6 +75,6 @@ public class JujutsuSlop {
    }
 
    private void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
-      event.put(JujutsuRebornEntities.ROCK.get(), RockEntity.createAttributes().build());
+      event.put(JujutsuSlopEntities.ROCK.get(), RockEntity.createAttributes().build());
    }
 }

@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 
 import java.lang.reflect.Field;
 
@@ -92,7 +92,7 @@ public class UroInfiniteSkyDisplayMixin {
 
          ci.cancel();
       } catch (Exception e) {
-         JujutsuReborn.LOGGER.warn("[JReborn] UroInfiniteSkyDisplayMixin failed: {}", e.getMessage());
+         JujutsuSlop.LOGGER.warn("[JReborn] UroInfiniteSkyDisplayMixin failed: {}", e.getMessage());
       }
    }
 }

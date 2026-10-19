@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.client;
+package com.stovetoptoad.jujutsuslop.client;
 
 public final class CameraTilt {
     public static float targetRoll = 0.0f;

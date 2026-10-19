@@ -1,8 +1,8 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.entity.RockEntity;
-import com.ghosts.jujutsureborn.init.JujutsuRebornEntities;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.entity.RockEntity;
+import com.stovetoptoad.jujutsuslop.init.JujutsuSlopEntities;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
@@ -71,7 +71,7 @@ public class TodoPebbleExecuteMixin {
 
       serverLevel.addFreshEntity(rock);
 
-      JujutsuReborn.LOGGER.info("[JReborn] Rock entity thrown by {}", player.getScoreboardName());
+      JujutsuSlop.LOGGER.info("[JReborn] Rock entity thrown by {}", player.getScoreboardName());
 
       ci.cancel();
    }

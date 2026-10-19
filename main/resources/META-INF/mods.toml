@@ -33,4 +33,4 @@ side = "BOTH"
 
 # Abyss mixins
 [[mixins]]
-config = "jujutsureborn.mixins.json"
+config = "jujutsuslop.mixins.json"

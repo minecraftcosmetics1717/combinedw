@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;

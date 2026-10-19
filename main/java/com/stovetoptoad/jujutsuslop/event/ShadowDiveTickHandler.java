@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn; //
+import com.stovetoptoad.jujutsuslop.JujutsuSlop; //
 import net.minecraft.core.Direction; //
 import net.minecraft.resources.ResourceLocation; //
 import net.minecraft.server.level.ServerPlayer; //
@@ -19,7 +19,7 @@ import net.minecraftforge.registries.ForgeRegistries; //
 import java.lang.reflect.Field; //
 import java.util.UUID; //
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class ShadowDiveTickHandler {
 
     private static final UUID SLOWDOWN_UUID = UUID.fromString("7f4e2c8a-1123-4b67-a890-bcdef1234567");

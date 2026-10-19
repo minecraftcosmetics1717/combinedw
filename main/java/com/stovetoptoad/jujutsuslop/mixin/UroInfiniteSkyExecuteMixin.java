@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.effect.MobEffect;
@@ -49,9 +49,9 @@ public class UroInfiniteSkyExecuteMixin {
       if (infinityEffect != null) {
          // 60 seconds = 1200 Ticks
          player.addEffect(new MobEffectInstance(infinityEffect, 1200, 0, false, true));
-         JujutsuReborn.LOGGER.info("[JReborn] Applied Infinite Sky (Infinity Effect) to {}", player.getScoreboardName());
+         JujutsuSlop.LOGGER.info("[JReborn] Applied Infinite Sky (Infinity Effect) to {}", player.getScoreboardName());
       } else {
-         JujutsuReborn.LOGGER.error("[JReborn] CRITICAL: Couldn't find 'jujutsucraft:infinity_effect' registered!");
+         JujutsuSlop.LOGGER.error("[JReborn] CRITICAL: Couldn't find 'jujutsucraft:infinity_effect' registered!");
       }
 
       ci.cancel();

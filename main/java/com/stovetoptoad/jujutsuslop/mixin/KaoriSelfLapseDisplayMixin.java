@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraftforge.common.capabilities.Capability;
@@ -96,7 +96,7 @@ public class KaoriSelfLapseDisplayMixin {
 
             ci.cancel();
         } catch (Exception e) {
-            JujutsuReborn.LOGGER.warn("[JReborn] KaoriSelfLapseDisplayMixin failed: {}", e.getMessage());
+            JujutsuSlop.LOGGER.warn("[JReborn] KaoriSelfLapseDisplayMixin failed: {}", e.getMessage());
         }
     }
 }

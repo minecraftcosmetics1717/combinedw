@@ -1,8 +1,8 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.network.ModNetwork;
-import com.ghosts.jujutsureborn.network.PacketSyncShadowDive;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.network.ModNetwork;
+import com.stovetoptoad.jujutsuslop.network.PacketSyncShadowDive;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
@@ -84,7 +84,7 @@ public class TenShadowsExecuteMixin {
       }
 
       if (newState) {
-         JujutsuReborn.LOGGER.info("[JReborn] {} entered Shadow Dive form.", player.getScoreboardName());
+         JujutsuSlop.LOGGER.info("[JReborn] {} entered Shadow Dive form.", player.getScoreboardName());
       } else {
          player.setMaxUpStep(0.6F);
 
@@ -92,7 +92,7 @@ public class TenShadowsExecuteMixin {
             player.removeEffect(MobEffects.INVISIBILITY);
          }
 
-         JujutsuReborn.LOGGER.info("[JReborn] {} exited Shadow Dive form.", player.getScoreboardName());
+         JujutsuSlop.LOGGER.info("[JReborn] {} exited Shadow Dive form.", player.getScoreboardName());
       }
 
       ci.cancel();

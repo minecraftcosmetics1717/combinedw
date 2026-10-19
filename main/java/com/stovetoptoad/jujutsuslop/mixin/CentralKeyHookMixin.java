@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
 import java.lang.reflect.Field;
 import net.minecraft.core.Direction;

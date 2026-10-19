@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.mixin;
+package com.stovetoptoad.jujutsuslop.mixin;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.mcreator.jujutsucraft.entity.StevensonScreenEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.PathfinderMob;
@@ -16,12 +16,12 @@ public abstract class MixinStevensonScreenEntity extends PathfinderMob {
 
    @Override
    public boolean shouldDespawnInPeaceful() {
-      return !this.level().getGameRules().getBoolean(JujutsuReborn.STEVENSON_NOT_DESPAWN);
+      return !this.level().getGameRules().getBoolean(JujutsuSlop.STEVENSON_NOT_DESPAWN);
    }
 
    @Override
    public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-      if (this.level().getGameRules().getBoolean(JujutsuReborn.STEVENSON_NOT_DESPAWN)) {
+      if (this.level().getGameRules().getBoolean(JujutsuSlop.STEVENSON_NOT_DESPAWN)) {
          return false;
       }
       return super.removeWhenFarAway(distanceToClosestPlayer);

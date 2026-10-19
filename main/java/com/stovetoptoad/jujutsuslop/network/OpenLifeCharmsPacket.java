@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.network;
+package com.stovetoptoad.jujutsuslop.network;
 
-import com.ghosts.jujutsureborn.menu.LifeCharmsMenu;
+import com.stovetoptoad.jujutsuslop.menu.LifeCharmsMenu;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;

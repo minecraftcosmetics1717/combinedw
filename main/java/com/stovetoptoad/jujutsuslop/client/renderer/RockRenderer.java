@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.client.renderer;
+package com.stovetoptoad.jujutsuslop.client.renderer;
 
-import com.ghosts.jujutsureborn.entity.RockEntity;
+import com.stovetoptoad.jujutsuslop.entity.RockEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 

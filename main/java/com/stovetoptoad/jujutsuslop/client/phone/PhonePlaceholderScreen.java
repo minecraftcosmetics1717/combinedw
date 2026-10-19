@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.client.phone;
+package com.stovetoptoad.jujutsuslop.client.phone;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;

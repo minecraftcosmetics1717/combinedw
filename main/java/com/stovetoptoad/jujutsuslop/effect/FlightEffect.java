@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.effect;
+package com.stovetoptoad.jujutsuslop.effect;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;

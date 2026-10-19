@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.mcreator.jujutsucraft.entity.StevensonScreenEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
@@ -9,7 +9,7 @@ import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class StevensonScreenSpawnHandler {
 
     private static final int MIN_DAYTIME_SKY_LIGHT = 8;

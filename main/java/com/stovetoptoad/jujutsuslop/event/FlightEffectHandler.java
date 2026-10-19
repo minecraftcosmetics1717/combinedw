@@ -1,7 +1,7 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.effect.ModEffects;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.effect.ModEffects;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.effect.MobEffect;
@@ -17,7 +17,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.lang.reflect.Field;
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class FlightEffectHandler {
 
     // 1. Intercept attempts to apply jujutsucraft:fly_effect

@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.effect;
+package com.stovetoptoad.jujutsuslop.effect;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModEffects {
     public static final DeferredRegister<MobEffect> MOB_EFFECTS = 
-            DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, JujutsuReborn.MODID);
+            DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, JujutsuSlop.MOD_ID);
 
     public static final RegistryObject<MobEffect> FLIGHT = MOB_EFFECTS.register("flight",
             () -> new FlightEffect(MobEffectCategory.BENEFICIAL, 0x66CCFF)); // Light blue color

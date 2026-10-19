@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.util;
+package com.stovetoptoad.jujutsuslop.util;
 
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementProgress;

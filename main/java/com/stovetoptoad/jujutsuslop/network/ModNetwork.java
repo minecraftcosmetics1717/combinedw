@@ -5,12 +5,12 @@ import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.simple.SimpleChannel;
 
 // Abyss packets (keep these imports until you move the packet classes)
-import com.ghosts.jujutsureborn.network.OpenShadowInventoryPacket;
-import com.ghosts.jujutsureborn.network.OpenLifeCharmsPacket;
-import com.ghosts.jujutsureborn.network.PacketSyncShadowDive;
-import com.ghosts.jujutsureborn.network.RequestTeleportPacket;
-import com.ghosts.jujutsureborn.network.TeleportRequestNotifyPacket;
-import com.ghosts.jujutsureborn.network.RespondTeleportPacket;
+import com.stovetoptoad.jujutsuslop.network.OpenShadowInventoryPacket;
+import com.stovetoptoad.jujutsuslop.network.OpenLifeCharmsPacket;
+import com.stovetoptoad.jujutsuslop.network.PacketSyncShadowDive;
+import com.stovetoptoad.jujutsuslop.network.RequestTeleportPacket;
+import com.stovetoptoad.jujutsuslop.network.TeleportRequestNotifyPacket;
+import com.stovetoptoad.jujutsuslop.network.RespondTeleportPacket;
 
 public class ModNetwork {
    private static final String PROTOCOL_VERSION = "1";

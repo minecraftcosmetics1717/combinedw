@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.client;
+package com.stovetoptoad.jujutsuslop.client;
 
-import com.ghosts.jujutsureborn.menu.LifeCharmsMenu;
+import com.stovetoptoad.jujutsuslop.menu.LifeCharmsMenu;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -11,7 +11,7 @@ import net.minecraft.world.entity.player.Inventory;
 public class LifeCharmsScreen extends AbstractContainerScreen<LifeCharmsMenu> {
 
     private static final ResourceLocation TEXTURE =
-            new ResourceLocation("jujutsureborn", "textures/gui/life_charms.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/life_charms.png");
 
     public LifeCharmsScreen(LifeCharmsMenu menu, Inventory inv, Component title) {
         super(menu, inv, title);

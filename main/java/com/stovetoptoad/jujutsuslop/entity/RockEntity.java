@@ -1,7 +1,7 @@
-package com.ghosts.jujutsureborn.entity;
+package com.stovetoptoad.jujutsuslop.entity;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.init.JujutsuRebornEntities;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.init.JujutsuSlopEntities;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
@@ -28,7 +28,7 @@ public class RockEntity extends LivingEntity implements ItemSupplier {
    }
 
    public RockEntity(Level level) {
-      this(JujutsuRebornEntities.ROCK.get(), level);
+      this(JujutsuSlopEntities.ROCK.get(), level);
    }
 
    public static AttributeSupplier.Builder createAttributes() {
@@ -42,7 +42,7 @@ public class RockEntity extends LivingEntity implements ItemSupplier {
    // Required by ThrownItemRenderer
    @Override
    public ItemStack getItem() {
-      return new ItemStack(JujutsuReborn.ROCK.get());
+      return new ItemStack(JujutsuSlop.ROCK.get());
    }
 
    @Override

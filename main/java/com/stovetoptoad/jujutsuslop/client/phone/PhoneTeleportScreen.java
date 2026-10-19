@@ -1,7 +1,7 @@
-package com.ghosts.jujutsureborn.client.phone;
+package com.stovetoptoad.jujutsuslop.client.phone;
 
-import com.ghosts.jujutsureborn.network.ModNetwork;
-import com.ghosts.jujutsureborn.network.RequestTeleportPacket;
+import com.stovetoptoad.jujutsuslop.network.ModNetwork;
+import com.stovetoptoad.jujutsuslop.network.RequestTeleportPacket;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
@@ -16,7 +16,7 @@ import java.util.List;
 public class PhoneTeleportScreen extends Screen {
 
     private static final ResourceLocation PHONE_BG =
-            new ResourceLocation("jujutsureborn", "textures/gui/phone/phone_bg.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/phone/phone_bg.png");
 
     private static final int PHONE_W = 140;
     private static final int PHONE_H = 240;
@@ -160,7 +160,7 @@ public class PhoneTeleportScreen extends Screen {
             minecraft.setScreen(new PhoneScreen());
             return true;
         }
-        if (com.ghosts.jujutsureborn.client.ClientEvents.OPEN_PHONE.matches(keyCode, scanCode)) {
+        if (com.stovetoptoad.jujutsuslop.client.ClientEvents.OPEN_PHONE.matches(keyCode, scanCode)) {
             onClose();
             return true;
         }

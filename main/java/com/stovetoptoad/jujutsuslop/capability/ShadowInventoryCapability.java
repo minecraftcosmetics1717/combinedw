@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.capability;
+package com.stovetoptoad.jujutsuslop.capability;
 
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;

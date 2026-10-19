@@ -1,11 +1,11 @@
-package com.ghosts.jujutsureborn.client;
+package com.stovetoptoad.jujutsuslop.client;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.client.phone.PhoneScreen;
-import com.ghosts.jujutsureborn.menu.ModMenus;
-import com.ghosts.jujutsureborn.network.ModNetwork;
-import com.ghosts.jujutsureborn.network.OpenLifeCharmsPacket;
-import com.ghosts.jujutsureborn.network.OpenShadowInventoryPacket;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.client.phone.PhoneScreen;
+import com.stovetoptoad.jujutsuslop.menu.ModMenus;
+import com.stovetoptoad.jujutsuslop.network.ModNetwork;
+import com.stovetoptoad.jujutsuslop.network.OpenLifeCharmsPacket;
+import com.stovetoptoad.jujutsuslop.network.OpenShadowInventoryPacket;
 import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
@@ -21,28 +21,28 @@ import org.lwjgl.glfw.GLFW;
 public class ClientEvents {
 
     public static final KeyMapping OPEN_SHADOW_INV = new KeyMapping(
-            "key.jujutsureborn.shadow_inventory",
+            "key.jujutsuslop.shadow_inventory",
             InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_B,
-            "key.categories.jujutsureborn"
+            "key.categories.jujutsuslop"
     );
 
     public static final KeyMapping OPEN_LIFE_CHARMS = new KeyMapping(
-            "key.jujutsureborn.life_charms",
+            "key.jujutsuslop.life_charms",
             InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_P,
-            "key.categories.jujutsureborn"
+            "key.categories.jujutsuslop"
     );
 
     // I = Phone
     public static final KeyMapping OPEN_PHONE = new KeyMapping(
-            "key.jujutsureborn.phone",
+            "key.jujutsuslop.phone",
             InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_I,
-            "key.categories.jujutsureborn"
+            "key.categories.jujutsuslop"
     );
 
-    @Mod.EventBusSubscriber(modid = JujutsuReborn.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ModBusEvents {
 
         @SubscribeEvent
@@ -62,7 +62,7 @@ public class ClientEvents {
         }
     }
 
-    @Mod.EventBusSubscriber(modid = JujutsuReborn.MODID, value = Dist.CLIENT)
+    @Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID, value = Dist.CLIENT)
     public static class ForgeBusEvents {
 
         @SubscribeEvent

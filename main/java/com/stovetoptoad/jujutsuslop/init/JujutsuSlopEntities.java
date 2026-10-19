@@ -1,17 +1,17 @@
-package com.ghosts.jujutsureborn.init;
+package com.stovetoptoad.jujutsuslop.init;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.entity.RockEntity;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.entity.RockEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class JujutsuRebornEntities {
+public class JujutsuSlopEntities {
 
    public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
-           DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, JujutsuReborn.MODID);
+           DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, JujutsuSlop.MOD_ID);
 
    public static final RegistryObject<EntityType<RockEntity>> ROCK =
            ENTITY_TYPES.register("rock",

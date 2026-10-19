@@ -1,8 +1,8 @@
-package com.ghosts.jujutsureborn.event;
+package com.stovetoptoad.jujutsuslop.event;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
-import com.ghosts.jujutsureborn.capability.LifeCharmsCapability;
-import com.ghosts.jujutsureborn.capability.ModCapabilities;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
+import com.stovetoptoad.jujutsuslop.capability.LifeCharmsCapability;
+import com.stovetoptoad.jujutsuslop.capability.ModCapabilities;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -16,7 +16,7 @@ import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = JujutsuReborn.MODID)
+@Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class LifeCharmsEvents {
 
     // ===== Attach capability =====
@@ -24,7 +24,7 @@ public class LifeCharmsEvents {
     public static void attachCapabilities(AttachCapabilitiesEvent<Entity> event) {
         if (event.getObject() instanceof Player) {
             event.addCapability(
-                    new ResourceLocation(JujutsuReborn.MODID, "life_charms"),
+                    new ResourceLocation(JujutsuSlop.MOD_ID, "life_charms"),
                     new LifeCharmsCapability()
             );
         }

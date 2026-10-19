@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.command;
+package com.stovetoptoad.jujutsuslop.command;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import com.mojang.brigadier.CommandDispatcher;
 import net.mcreator.jujutsucraft.network.JujutsucraftModVariables;
 import net.minecraft.commands.CommandSourceStack;
@@ -11,7 +11,7 @@ import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber(modid = JujutsuReborn.MODID)
+@EventBusSubscriber(modid = JujutsuSlop.MOD_ID)
 public class StatsCommand {
 
     @SubscribeEvent

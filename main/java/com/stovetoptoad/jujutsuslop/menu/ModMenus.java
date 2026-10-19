@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.menu;
+package com.stovetoptoad.jujutsuslop.menu;
 
-import com.ghosts.jujutsureborn.JujutsuReborn;
+import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModMenus {
     public static final DeferredRegister<MenuType<?>> MENUS =
-            DeferredRegister.create(ForgeRegistries.MENU_TYPES, JujutsuReborn.MODID);
+            DeferredRegister.create(ForgeRegistries.MENU_TYPES, JujutsuSlop.MOD_ID);
 
     public static final RegistryObject<MenuType<ShadowInventoryMenu>> SHADOW_INVENTORY =
             MENUS.register("shadow_inventory",

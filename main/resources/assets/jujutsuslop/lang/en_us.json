@@ -162,11 +162,11 @@
   "gamerule.jslopCsmKeepCurses.description": "Retains absorbed cursed spirits upon death for CSM players",
   "jujutsu.technique.rika_partial": "Partial Manifestation",
   "container.jujutsuslop.rika_inventory": "Rika's Storage",
-  "entity.jujutsureborn.rock": "Pebble",
-  "effect.jujutsureborn.flight": "Flight",
-  "key.categories.jujutsureborn": "Abyss",
-  "key.jujutsureborn.shadow_inventory": "[TST] Open Shadow Inventory",
-  "key.jujutsureborn.life_charms": "Open Life Charms",
-  "key.jujutsureborn.innerself_inventory": "Open Innerself",
-  "key.jujutsureborn.phone": "Open Phone"
+  "entity.jujutsuslop.rock": "Pebble",
+  "effect.jujutsuslop.flight": "Flight",
+  "key.categories.jujutsuslop": "Abyss",
+  "key.jujutsuslop.shadow_inventory": "[TST] Open Shadow Inventory",
+  "key.jujutsuslop.life_charms": "Open Life Charms",
+  "key.jujutsuslop.innerself_inventory": "Open Innerself",
+  "key.jujutsuslop.phone": "Open Phone"
 }

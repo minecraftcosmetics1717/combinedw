@@ -9,9 +9,9 @@ import net.minecraftforge.fml.common.Mod;
 import com.stovetoptoad.jujutsuslop.JujutsuSlop;
 
 // Abyss capability classes (make sure these are copied into this package or imported correctly)
-import com.ghosts.jujutsureborn.capability.ShadowInventoryCapability;
-import com.ghosts.jujutsureborn.capability.LifeCharmsCapability;
-import com.ghosts.jujutsureborn.capability.InnerselfInventoryCapability;
+import com.stovetoptoad.jujutsuslop.capability.ShadowInventoryCapability;
+import com.stovetoptoad.jujutsuslop.capability.LifeCharmsCapability;
+import com.stovetoptoad.jujutsuslop.capability.InnerselfInventoryCapability;
 
 @Mod.EventBusSubscriber(modid = JujutsuSlop.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCapabilities {

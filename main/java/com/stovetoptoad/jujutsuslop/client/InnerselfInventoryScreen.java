@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.client;
+package com.stovetoptoad.jujutsuslop.client;
 
-import com.ghosts.jujutsureborn.menu.InnerselfInventoryMenu;
+import com.stovetoptoad.jujutsuslop.menu.InnerselfInventoryMenu;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -12,7 +12,7 @@ public class InnerselfInventoryScreen extends AbstractContainerScreen<InnerselfI
 
     // Reuse shadow texture or make a new one
     private static final ResourceLocation TEXTURE =
-            new ResourceLocation("jujutsureborn", "textures/gui/innerself_inventory.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/innerself_inventory.png");
 
     public InnerselfInventoryScreen(InnerselfInventoryMenu menu, Inventory inv, Component title) {
         super(menu, inv, title);

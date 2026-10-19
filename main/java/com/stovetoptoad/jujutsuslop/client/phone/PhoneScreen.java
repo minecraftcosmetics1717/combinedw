@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.client.phone;
+package com.stovetoptoad.jujutsuslop.client.phone;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
@@ -10,13 +10,13 @@ import net.minecraft.world.level.Level;
 public class PhoneScreen extends Screen {
 
     private static final ResourceLocation PHONE_BG =
-            new ResourceLocation("jujutsureborn", "textures/gui/phone/phone_bg.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/phone/phone_bg.png");
     private static final ResourceLocation ICON_MESSAGES =
-            new ResourceLocation("jujutsureborn", "textures/gui/phone/icon_messages.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/phone/icon_messages.png");
     private static final ResourceLocation ICON_MAP =
-            new ResourceLocation("jujutsureborn", "textures/gui/phone/icon_map.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/phone/icon_map.png");
     private static final ResourceLocation ICON_TELEPORT =
-            new ResourceLocation("jujutsureborn", "textures/gui/phone/icon_teleport.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/phone/icon_teleport.png");
 
     // Match your texture size (change if your PNG is different)
     private static final int PHONE_W = 140;
@@ -135,7 +135,7 @@ public class PhoneScreen extends Screen {
 
     @Override
     public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
-        if (com.ghosts.jujutsureborn.client.ClientEvents.OPEN_PHONE.matches(keyCode, scanCode)) {
+        if (com.stovetoptoad.jujutsuslop.client.ClientEvents.OPEN_PHONE.matches(keyCode, scanCode)) {
             onClose();
             return true;
         }

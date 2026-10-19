@@ -1,9 +1,9 @@
-package com.ghosts.jujutsureborn.network;
+package com.stovetoptoad.jujutsuslop.network;
 
-import com.ghosts.jujutsureborn.menu.InnerselfInventoryMenu;
-import com.ghosts.jujutsureborn.menu.ShadowInventoryMenu;
-import com.ghosts.jujutsureborn.util.InnerselfHelper;
-import com.ghosts.jujutsureborn.util.TenShadowsHelper;
+import com.stovetoptoad.jujutsuslop.menu.InnerselfInventoryMenu;
+import com.stovetoptoad.jujutsuslop.menu.ShadowInventoryMenu;
+import com.stovetoptoad.jujutsuslop.util.InnerselfHelper;
+import com.stovetoptoad.jujutsuslop.util.TenShadowsHelper;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;

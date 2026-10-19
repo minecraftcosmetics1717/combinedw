@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.network;
+package com.stovetoptoad.jujutsuslop.network;
 
-import com.ghosts.jujutsureborn.client.ShadowDiveSync;
+import com.stovetoptoad.jujutsuslop.client.ShadowDiveSync;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.DistExecutor;

@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.item;
+package com.stovetoptoad.jujutsuslop.item;
 
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;

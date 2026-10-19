@@ -1,6 +1,6 @@
-package com.ghosts.jujutsureborn.client;
+package com.stovetoptoad.jujutsuslop.client;
 
-import com.ghosts.jujutsureborn.menu.ShadowInventoryMenu;
+import com.stovetoptoad.jujutsuslop.menu.ShadowInventoryMenu;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -12,7 +12,7 @@ public class ShadowInventoryScreen extends AbstractContainerScreen<ShadowInvento
 
     // Use the real dispenser texture so it looks correct
     private static final ResourceLocation TEXTURE =
-            new ResourceLocation("jujutsureborn", "textures/gui/shadow_inventory.png");
+            new ResourceLocation("jujutsuslop", "textures/gui/shadow_inventory.png");
 
     public ShadowInventoryScreen(ShadowInventoryMenu menu, Inventory inv, Component title) {
         super(menu, inv, title);

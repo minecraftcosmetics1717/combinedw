@@ -1,4 +1,4 @@
-package com.ghosts.jujutsureborn.client;
+package com.stovetoptoad.jujutsuslop.client;
 
 import java.util.Map;
 import java.util.UUID;
