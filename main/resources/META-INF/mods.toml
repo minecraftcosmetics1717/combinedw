@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "MIT"
+
+[[mods]]
+modId = "jujutsuslop"
+version = "${file.jarVersion}"
+displayName = "Abyss"
+authors = "Ghosts"
+description = '''Merged Abyss + JujutsuSlop'''
+
+[[dependencies.jujutsuslop]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jujutsuslop]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+# From Abyss – required
+[[dependencies.jujutsuslop]]
+modId = "jujutsucraft"
+mandatory = true
+versionRange = "[50,]"
+ordering = "BEFORE"
+side = "BOTH"
+
+# Abyss mixins
+[[mixins]]
+config = "jujutsureborn.mixins.json"
