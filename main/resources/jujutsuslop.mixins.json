@@ -60,7 +60,6 @@
     "HideArmorInShadowDiveMixin",
     "HideFourArmsInShadowDiveMixin",
     "CharmGlintMixin",
-    "CameraTiltMixin",
     "DivergentFistBlackFlashMixin",
     "DivergentFistKeyMixin",
     "RangeAttackForceBlackFlashMixin",
